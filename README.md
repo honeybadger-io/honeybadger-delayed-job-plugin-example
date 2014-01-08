@@ -16,13 +16,13 @@ Tracker](https://www.honeybadger.io/).
 2. Start the worker:
 
     ```sh
-    HONEYBADGER_API_KEY=your-key bundle exec rake jobs:work
+    HONEYBADGER_API_KEY=your-api-key bundle exec rake jobs:work
     ```
 
 3. Start the console:
 
    ```sh
-   HONEYBADGER_API_KEY= bundle exec rails console
+   HONEYBADGER_API_KEY=your-api-key bundle exec rails console
    ```
 
 4. From the console, fire off the failing job:
