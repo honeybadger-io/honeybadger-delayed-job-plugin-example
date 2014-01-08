@@ -11,6 +11,7 @@ gem 'sqlite3'
 gem 'honeybadger'
 gem 'delayed_job'
 gem 'delayed_job_active_record'
+gem 'delayed_job_honeybadger'
 
 
 # To use ActiveModel has_secure_password
