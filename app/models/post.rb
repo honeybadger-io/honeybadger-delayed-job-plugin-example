@@ -5,7 +5,7 @@ class Post < ActiveRecord::Base
     fail 'oops'
   end
 
-  def self.slow_method(duration = 5)
+  def self.slow_method(duration = 2)
     sleep(duration)
   end
 end
