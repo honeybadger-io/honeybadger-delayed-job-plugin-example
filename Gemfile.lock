@@ -35,12 +35,9 @@ GEM
     delayed_job_active_record (4.0.0)
       activerecord (>= 3.0, < 4.1)
       delayed_job (>= 3.0, < 4.1)
-    delayed_job_honeybadger (0.0.3)
-      delayed_job
-      honeybadger
     erubis (2.7.0)
     hike (1.2.3)
-    honeybadger (1.10.1)
+    honeybadger (1.15.0)
       json
     i18n (0.6.9)
     journey (1.0.4)
@@ -95,7 +92,6 @@ PLATFORMS
 DEPENDENCIES
   delayed_job
   delayed_job_active_record
-  delayed_job_honeybadger
   honeybadger
   rails (~> 3.2.11)
   sqlite3
